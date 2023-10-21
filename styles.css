@@ -1,0 +1,1477 @@
+
+
+/* styles.css */
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff !important;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.288); /* Optional: Add a shadow for depth */
+}
+
+/* Light mode styles for the entire page */
+body.light-mode {
+  background-color: #ffffff; /* Light background color for the page */
+  color: #000000; /* Light text color */
+}
+
+nav.light-mode {
+  background-color: #ffffff; /* Light background color for the navbar */
+  color: #000000; /* Light text color for the navbar */
+}
+
+/* Dark mode styles for the entire page */
+body.dark-mode {
+  background-color: #121212; /* Dark background color for the page */
+  color: #ffffff; /* Dark text color for the page */
+}
+
+nav.dark-mode {
+  background-color: #121212; /* Dark background color for the navbar */
+  color: #ffffff; /* Dark text color for the navbar */
+}
+.mode-toggle-icon {
+  background-color: transparent;
+  border: none;
+}
+
+/* Dark mode css 
+
+
+
+body.dark-mode .productheading {
+  color: white ;
+}
+body.dark-mode .productheading2 {
+ 
+  color: aqua;
+}
+body.dark-mode .productpara {
+
+  color: aliceblue;
+}
+body.dark-mode .iconpara {
+
+  color: aliceblue;
+}
+body.dark-mode .iconheading {
+  color: cornflowerblue;
+}
+body.dark-mode .planheading {
+  color: white ;
+}
+body.dark-mode .planpara  {
+
+  color: aliceblue;
+}
+body.dark-mode .productsideheading {
+ 
+  color: white ;
+}
+body.dark-mode .logosidepara {
+  color: aliceblue;
+}
+body.dark-mode .footeremailpara {
+  color: aliceblue;
+}
+body.dark-mode .productsidetext  {
+  color: aliceblue;
+} */
+
+.Main {
+  background-image: url(/Project/Images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 799px;
+}
+.navbarMain {
+  background-color: transparent !important;
+  --bs-tertiary-bg: transparent !important;
+  --bs-tertiary-bg-rgb: transparent !important;
+  border-bottom: 1px solid #9992c5;
+  --bs-navbar-padding-y: 0rem !important;
+  transition: background-color 0.5s; /* Add a transition for smooth color change */
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 8rem !important;
+  --bs-gutter-y: 0;
+}
+
+.navbar-nav {
+  gap: 38px !important;
+  padding-left: 76px !important;
+  --bs-nav-link-padding-y: 0.2rem !important;
+  width: 83px;
+  height: 24px;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #21234c;
+}
+
+
+.navbarcontainer {
+  width: 100%;
+  height: 117px;
+}
+.navbarLogin {
+  border: none;
+  background-color: transparent;
+
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-right: 38px;
+}
+.btn-outline-success {
+  width: 98px;
+
+  border-radius: 6px;
+
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+  border: none;
+  background: #6ccbdd;
+  background: linear-gradient(90deg, #6ccbdd 0%, #9992c5 100%);
+  font-family: "Ubuntu" !important;
+  font-size: 20px !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  text-align: center !important;
+  color: #21234c !important;
+}
+.navbar-toggler {
+  background: linear-gradient(90deg, #6ccbdd 0%, #9992c5 100%) !important;
+  color: #ffffff00 !important;
+}
+.me-auto {
+  margin-right: auto !important;
+}
+.d-flex {
+  padding-top: 10px;
+}
+
+.logoimage {
+  width: 226.4px;
+  height: 95.7px;
+}
+.headingmain {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-left: 85px;
+}
+.headingfirst {
+  width: 597px;
+  height: 127px;
+
+  font-family: "Ubuntu";
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.firstpara {
+  padding-top: 30px;
+  width: 476px;
+  height: 148px;
+
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 5px;
+  color: #ffffff;
+}
+.mainbutton {
+  margin-top: 50px;
+}
+.firstbutton {
+  border: none;
+  border-radius: 6px;
+  width: 160px;
+  height: 43px;
+
+  font-family: "Ubuntu";
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #21234c;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+
+  background: #6ccbdd;
+  background: linear-gradient(90deg, #6ccbdd 0%, #9992c5 100%);
+}
+.secondbutton {
+  margin-left: 40px;
+  width: 160px;
+  height: 43px;
+
+  border-color: #9992c5;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+  background: transparent;
+
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+
+  font-family: "Ubuntu";
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Product css */
+
+.productmain {
+  display: flex;
+  margin-top: 40px;
+}
+.productmain1 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 60px;
+}
+.productimagemain {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.productimagemain1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proimage {
+  width: 408px;
+  height: 437px;
+}
+.proimage1 {
+  width: 511px;
+  height: 291px;
+}
+.productheading {
+  width: 101px;
+  height: 28px;
+
+  font-family: "Ubuntu";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #464b9f;
+}
+.productheading2 {
+  width: 524px;
+  height: 41px;
+
+  font-family: "Ubuntu";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+  font-style: normal;
+  text-align: left;
+  color: #21234c;
+}
+.productpara {
+  width: 524px;
+  height: 41px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+.iconparamain {
+  display: flex;
+  margin-top: 40px;
+}
+.icon1 {
+  width: 104px;
+  height: 100px;
+}
+.icon2 {
+  width: 104px;
+  height: 95px;
+}
+.icon3 {
+  width: 85px;
+  height: 97px;
+}
+.icon4 {
+  width: 104px;
+  height: 94px;
+}
+.iconheadingmaing {
+  padding-left: 20px;
+}
+.iconheading {
+  width: 239px;
+  height: 24px;
+
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: #464b9f;
+}
+.iconpara {
+  width: 322px;
+  height: 61px;
+
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+.productbuttonmain {
+  margin-top: 30px;
+}
+.productbutton {
+  width: 113px;
+  height: 39px;
+  border: none;
+  border-radius: 6px;
+
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+
+  background: #6ccbdd;
+  background: linear-gradient(90deg, #6ccbdd 0%, #9992c5 100%);
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Network css */
+
+.Networkmain {
+  margin-top: 80px;
+  width: 100%;
+  height: 100%;
+  background-color: #e0e0ef;
+}
+.networkheading {
+  padding-top: 50px;
+  height: 41px;
+
+  font-family: "Ubuntu";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+  font-style: normal;
+  text-align: center;
+  color: #21234c;
+}
+.networkpara {
+  padding-top: 50px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #5f618b;
+}
+.networkmap {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.networkmapimg {
+  width: 100%;
+  height: 100%;
+}
+.Networkpinimage {
+  top: 78%;
+  left: 52.3%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage1 {
+  top: 46%;
+  left: 54%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage2 {
+  top: 43%;
+  left: 63%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage3 {
+  top: 31.5%;
+  left: 48.5%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage4 {
+  top: 64%;
+  left: 33.6%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage5 {
+  top: 38.6%;
+  left: 23%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage6 {
+  top: 34%;
+  left: 14%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage7 {
+  top: 20%;
+  left: 22%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+.Networkpinimage8 {
+  top: 15%;
+  left: 10.5%;
+  position: absolute;
+  width: 15.4px;
+  height: 24.4px;
+}
+
+/* Plan css */
+
+.Planmain {
+  padding-top: 45px;
+}
+.planheading {
+  height: 41px;
+
+  font-family: "Ubuntu";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  font-style: normal;
+  text-align: center;
+  color: #21234c;
+}
+.planpara {
+  height: 21px;
+
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #5f618b;
+}
+.plancardmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-top: 40px;
+}
+.plancardheight {
+  background-image: url(/Project/Images/CDN-pricing-BG.png);
+  width: 396px;
+  height: 505px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.plancardheight1 {
+  background-image: url(/Project/Images/DNS-pricing-BG.png);
+  width: 396px;
+  height: 505px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.plancard1 {
+  padding-top: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plancard2 {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardiconimage {
+  width: 122px;
+  height: 131px;
+}
+.cardiconimage1 {
+  width: 126px;
+  height: 114px;
+}
+.plancardheading {
+  padding-top: 20px;
+  width: 167px;
+  height: 35px;
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+  color: #6ccbdd;
+}
+.plancardheading1 {
+  padding-top: 20px;
+
+  width: 164px;
+  height: 35px;
+  font-family: "Ubuntu";
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  font-style: normal;
+  text-align: left;
+  color: #9992c5;
+}
+.plancardheadingprice {
+  padding-top: 40px;
+  width: 152px;
+  height: 69px;
+  font-family: "Montserrat";
+  font-size: 56px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: left;
+  color: #282c6b;
+}
+.plancardpara {
+  padding-top: 46px;
+  /* width: 191px; */
+  height: 21px;
+
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+.plancardbutton {
+  margin-top: 68px;
+  width: 141px;
+  height: 39px;
+  border: none;
+  border-radius: 6px;
+
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+
+  background: #6ccbdd;
+  background: linear-gradient(90deg, #6ccbdd 0%, #9992c5 100%);
+
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Support css */
+
+.Supportmain {
+  display: flex;
+  margin-top: 60px;
+  height: 373px;
+  background: #f1f3f6;
+}
+.supportright {
+  width: 60%;
+  padding-left: 90px;
+  padding-top: 60px;
+}
+.rightheading1 {
+  width: 198px;
+  height: 28px;
+  font-family: "Ubuntu";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  font-style: normal;
+  text-align: left;
+  color: #464b9f;
+}
+.rightheading2 {
+  width: 524px;
+  height: 81px;
+  font-family: "Ubuntu";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 40px;
+  font-style: normal;
+  text-align: left;
+  color: #21234c;
+}
+.rightpara {
+  padding-top: 30px;
+  width: 526px;
+  height: 101px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+.supportleft {
+  padding-top: 50px;
+  width: 40%;
+}
+.supporticonmain {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  gap: 10px;
+}
+.supporticon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+  background: #6ccbdd;
+  background: linear-gradient(90deg, #6ccbdd 0%, #9992c5 100%);
+}
+.supporticonimg {
+  width: 37.4px;
+  height: 35.1px;
+}
+.supportemail {
+  width: 172px;
+  height: 21px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+
+/* Trail css  */
+
+.Trailmainimage {
+  background-image: url(/Project/Images/CallToAction-BG.png);
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Trailmain {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Trailheading {
+  width: 627px;
+  height: 64px;
+  font-family: "Ubuntu";
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.Trailpara {
+  padding-top: 20px;
+  width: 524px;
+  height: 41px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.Trailbuttonmain {
+  padding-top: 70px;
+  display: flex;
+  gap: 44px;
+}
+.trailbutton1 {
+  width: 139px;
+  height: 39px;
+  border-radius: 6px;
+  border: none;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+  background: #6ccbdd;
+  background: linear-gradient(90deg, #6ccbdd 0%, #9992c5 100%);
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  color: #21234c;
+}
+.trailbutton2 {
+  width: 140px;
+  height: 39px;
+
+  border-color: #9992c5;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 6px;
+
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.16));
+
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/* Footer css */
+
+.footermain {
+  padding-top: 70px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.Logosidemain {
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Logoside {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footerimagemain {
+  padding-right: 42px;
+}
+.footerimage {
+  width: 226.3px;
+  height: 96.8px;
+}
+.logosidepara {
+  width: 258px;
+  height: 81px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+.footeremailmain {
+  padding-top: 40px;
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+.footeremailimage {
+  width: 19.9px;
+  height: 16.1px;
+}
+.footeremailpara {
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+.footerrightside {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 50px;
+  width: 50%;
+}
+.productsidemain {
+  padding-top: 40px;
+}
+.Networksidemain {
+  padding-top: 40px;
+}
+.pricingsidemain {
+  padding-top: 40px;
+}
+.Supportsidemain {
+  padding-top: 40px;
+}
+.productsideheading {
+  width: 84px;
+  height: 24px;
+  font-family: "Ubuntu";
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: #21234c;
+}
+.footerline {
+  margin-top: 8px;
+  width: 38px;
+  height: 3px;
+  background: #464b9f;
+}
+.productsidetextmain {
+  padding-top: 22px;
+}
+.productsidetext {
+  width: 122px;
+  padding-top: 5px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: #5f618b;
+}
+
+/* footer2 css */
+
+.footer2main {
+  width: 100%;
+  height: 68px;
+  background: #e6e4f0;
+  padding-top: 20px;
+}
+.footer2bothside {
+  display: flex;
+  justify-content: space-around;
+  gap: 245px;
+}
+.footer2leftside {
+  display: flex;
+}
+.footer2leftsidetext {
+  width: 445px;
+  height: 21px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #5f618b;
+}
+.footer2rightsidetext {
+  display: flex;
+}
+.termdiv {
+  width: 50px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #5f618b;
+}
+.term1div {
+  width: 140px;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #5f618b;
+}
+.seleshdiv {
+  width: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  font-family: "Ubuntu";
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #5f618b;
+}
+
+/* Responsive css */
+
+/* Responsive Navbar  */
+
+@media (max-width: 991px) {
+  .container,
+  .container-fluid,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    --bs-gutter-x: 2rem !important;
+    --bs-gutter-y: 0;
+  }
+  .navbar-collapse {
+    background-color: #21234c !important;
+    width: 100%;
+    z-index: 1001; /* Adjust the z-index value as needed */
+    position: absolute;
+    top: 110px; /* Adjust the top value to match your navbar's height */
+    right: 0;
+    left: 0;
+  }
+  .navbar-nav {
+    height: 200px !important;
+    padding-left: 10px !important;
+  }
+  .d-flex {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-left: 30px;
+  }
+  .btnmain {
+    margin-top: 32px;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    margin-right: 15px;
+  }
+  .me-auto {
+    margin-left: auto !important;
+    align-items: center !important;
+  }
+  .navbarLogin {
+    padding-top: 16px;
+
+    padding-left: 16px;
+  }
+  .mode-toggle-icon {
+    padding-right: 24px;
+  }
+}
+@media (max-width: 720px) {
+  .logoimage {
+    width: 180px;
+    height: 72px;
+  }
+  .navbar-collapse {
+    top: 85px; /* Adjust the top value to match your navbar's height */
+  }
+}
+
+/* Responsive Home  */
+
+@media (max-width: 991px) {
+  .headingfirst {
+    width: 100%;
+    font-size: 46px;
+  }
+  .firstpara {
+    padding-top: 20px;
+    width: 90%;
+    font-size: 16px;
+  }
+  .mainbutton {
+    margin-top: 30px;
+  }
+  .firstbutton {
+    width: 130px;
+    height: 43px;
+    font-size: 20px;
+  }
+  .secondbutton {
+    width: 130px;
+    height: 43px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 536px) {
+  .headingmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-left: 0px;
+  }
+  .headingfirst {
+    text-align: center;
+  }
+  .firstpara {
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  .firstpara {
+    padding-top: 80px;
+  }
+  .mainbutton {
+    margin-top: 115px;
+  }
+  .secondbutton {
+    margin-left: 10px;
+  }
+}
+
+/* Responsive Product  */
+
+@media (max-width: 1058px) {
+  .productmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .productbuttonmain {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .productmain1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 60px;
+  }
+  .productimagemain1 {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 536px) {
+  .proimage {
+    width: 300px;
+    height: 330px;
+  }
+  .productright {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .productheading2 {
+    text-align: center;
+    width: 100%;
+  }
+  .productheading1 {
+    text-align: center;
+    width: 100%;
+  }
+  .productpara {
+    width: 80%;
+    height: 41px;
+    text-align: center;
+  }
+  .iconparamain {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconheadingmaing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconheading {
+    text-align: center;
+    width: 100%;
+  }
+  .iconpara {
+    text-align: center;
+    width: 80%;
+  }
+  .proimage1 {
+    width: 300px;
+    height: 190px;
+  }
+}
+
+/* Responsive Network  */
+
+@media (max-width: 1100px) {
+  .Networkmain {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .Networkpinimage {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage1 {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage2 {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage3 {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage4 {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage5 {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage6 {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage7 {
+    width: 10px;
+    height: 17.4px;
+  }
+  .Networkpinimage8 {
+    width: 10px;
+    height: 17.4px;
+  }
+}
+@media (max-width: 520px) {
+  .networkheading {
+    font-size: 26px;
+    padding-top: 30px;
+  }
+  .networkpara {
+    font-size: 13px;
+  }
+}
+
+/* Responsive Plan  */
+
+@media (max-width: 848px) {
+  .plancardmain {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 30px;
+  }
+  .planheading {
+    height: 41px;
+    font-size: 30px;
+  }
+  .planpara {
+    height: 21px;
+    font-size: 16px;
+  }
+  .plancardheight {
+    width: 320px;
+    height: 405px;
+  }
+  .plancardheight1 {
+    width: 320px;
+    height: 405px;
+  }
+  .cardiconimage {
+    width: 90px;
+    height: 94px;
+  }
+  .cardiconimage1 {
+    width: 90px;
+    height: 86px;
+  }
+  .plancard2 {
+    padding-top: 45px;
+  }
+  .plancardheading {
+    padding-top: 10px;
+    width: 167px;
+    height: 35px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .plancardheading1 {
+    padding-top: 10px;
+    width: 167px;
+    height: 35px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .plancardheadingprice {
+    padding-top: 10px;
+    width: 152px;
+    height: 69px;
+    font-size: 46px;
+    text-align: center;
+  }
+  .plancardpara {
+    padding-top: 15px;
+    /* width: 191px; */
+    height: 21px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .plancardbutton {
+    margin-top: 58px;
+    width: 131px;
+    height: 38px;
+    font-size: 18px;
+  }
+}
+
+/* Responsive Support  */
+
+@media (max-width: 1000px) {
+  .Supportmain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 100%;
+    background: #f1f3f6;
+  }
+  .supportright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .rightheading2 {
+    width: 524px;
+    height: 81px;
+    text-align: center;
+  }
+  .rightpara {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .supportleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  .Supportmain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    height: 100%;
+    background: #f1f3f6;
+  }
+  .supportright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 50px;
+  }
+  .rightheading2 {
+    width: 100%;
+    height: 81px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .rightpara {
+    width: 94%;
+    height: 101px;
+    font-size: 16px;
+  }
+  .supportleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 26px;
+    width: 100%;
+  }
+}
+
+/* Responsive Trail  */
+
+@media (max-width: 648px) {
+  .Trailmain {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Trailheading {
+    width: 100%;
+    height: 100%;
+    font-size: 46px;
+  }
+  .Trailpara {
+    width: 94%;
+    height: 100%;
+    font-size: 15px;
+  }
+  .Trailbuttonmain {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+  }
+}
+
+/* Responsive Footer  */
+
+@media (max-width: 992px) {
+  .footermain {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+  .footerrightside {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding-left: 0px;
+    width: 50%;
+  }
+  .logosidepara {
+    width: 258px;
+    height: 81px;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: #5f618b;
+  }
+  .Networksidemain {
+    padding-top: 76px;
+  }
+  /* .productsidetextmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22px;
+} */
+  .productsideheading {
+    text-align: center;
+    width: 100%;
+  }
+  .productsidetext {
+    text-align: center;
+  }
+  .footerline {
+    margin-left: 40px;
+    margin-top: 8px;
+    width: 38px;
+    height: 3px;
+    background: #464b9f;
+  }
+  .footeremailmain {
+    padding-right: 0px;
+  }
+}
+@media (max-width: 552px) {
+  .Networksidemain {
+    padding-top: 30px;
+  }
+}
+
+/* Responsive Footer 2 */
+
+@media (max-width: 1080px) {
+  .footer2bothside {
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+  }
+}
+@media (max-width: 870px) {
+  .footer2leftsidetext {
+    width: 290px;
+    font-size: 14px;
+  }
+  .termdiv {
+    width: 40px;
+    font-size: 14px;
+  }
+  .seleshdiv {
+    width: 5px;
+    font-size: 14px;
+  }
+  .term1div {
+    width: 100px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 627px) {
+  .footer2bothside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .footer2main {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+  }
+}
+
+@font-face {
+  font-family: "Trueno";
+  src: url(/Project/Trueno-Font/TruenoRg.otf);
+}
